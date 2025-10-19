@@ -1,4 +1,7 @@
+# Ignore IDE and GitHub configs
+.vscode/
+.github/
 
-
-#Ignore vscode AI rules
-.github\instructions\codacy.instructions.md
+# Ignore local test data files
+demo/src/test/resources/TestData/url.txt
+demo/src/test/resources/TestData/users.json

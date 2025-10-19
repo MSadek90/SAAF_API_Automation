@@ -1,3 +1,0 @@
-dev=https://pawsket.neop.co/api/user/v1
-Stag=
-production=
