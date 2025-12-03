@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class EnvironmentReader {
     
- private static final String filePath = "src/test/rescources/TestData/url.txt";
+ private static final String filePath = "src/test/resources/test/Environment.txt";
 
 
 

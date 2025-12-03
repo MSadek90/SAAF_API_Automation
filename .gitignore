@@ -5,3 +5,6 @@
 # Ignore local test data files
 demo/src/test/resources/TestData/url.txt
 demo/src/test/resources/TestData/users.json
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md

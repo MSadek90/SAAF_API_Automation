@@ -3,7 +3,8 @@
 <suite name="CreateClient Suite">
     <test name="CreateClient Test">
         <classes>
-            <class name="TestCases.Auth.CreateClientTest"/>
+            <class name="TestCases.Auth.Auth.CreateClientTest"/>
+            <class name="TestCases.Auth.RealStateProject.SetupSplitTest"/>
         </classes>
     </test>
 </suite>
