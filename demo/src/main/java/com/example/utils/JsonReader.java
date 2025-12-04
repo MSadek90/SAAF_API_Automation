@@ -20,7 +20,20 @@ public class JsonReader {
         } catch (Exception e) {
             throw new RuntimeException("Failed to read JSON: " + filePath, e);
         }
+        }
+
+    /**
+     * Read a JSON array from a file and return it as a List of the given type.
+     */
+    public static <T> List<T> readJsonList(String filePath, Class<T> clazz) {
+        try {
+            return mapper.readValue(new File(filePath),
+                    mapper.getTypeFactory().constructCollectionType(List.class, clazz));
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to read JSON list: " + filePath, e);
+        }
     }
 }
+
 
 

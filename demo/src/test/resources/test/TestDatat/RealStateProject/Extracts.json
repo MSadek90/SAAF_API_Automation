@@ -1,0 +1,45 @@
+[
+  {
+    "unit_id": 123,
+    "real_state_project_id": 7,
+    "developer_id": 1,
+    "invoice_amount": 100,
+    "description": "Valid extract",
+    "extract_date": "2025-11-17",
+    "attachments": [5],
+    "pay_type": 1
+  },
+
+  {
+    "unit_id": 123,
+    "real_state_project_id": null,
+    "developer_id": 1,
+    "invoice_amount": 100,
+    "description": "Missing project id (invalid)",
+    "extract_date": "2025-11-17",
+    "attachments": [5],
+    "pay_type": 1
+  },
+
+  {
+    "unit_id": 123,
+    "real_state_project_id": 7,
+    "developer_id": 1,
+    "invoice_amount": -50,
+    "description": "Negative amount (invalid)",
+    "extract_date": "2025-11-17",
+    "attachments": [5],
+    "pay_type": 1
+  },
+
+  {
+    "unit_id": 123,
+    "real_state_project_id": 7,
+    "developer_id": 1,
+    "invoice_amount": 100,
+    "description": "Bad date format (invalid)",
+    "extract_date": "17-11-2025",
+    "attachments": [],
+    "pay_type": 1
+  }
+]
